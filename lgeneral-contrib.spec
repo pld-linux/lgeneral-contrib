@@ -7,7 +7,6 @@ License:	?
 Group:		Applications/Games
 BuildArch:	noarch
 Source0:	%{name}-%{version}.tar.bz2
-# Source0-md5:	786feb83f163834a22e3e85e1970145f
 URL:		http://lgames.sourceforge.net/
 Requires:	lgeneral
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
