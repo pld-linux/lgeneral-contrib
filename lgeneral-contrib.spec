@@ -2,8 +2,8 @@ Summary:	LGeneral game - contributed scenarios
 Summary(pl):	Gra Linux General - dodatkowe scenariusze
 Name:		lgeneral-contrib
 Version:	0.1
-Release:	0.9
-License:	?
+Release:	1
+License:	Freeware
 Group:		Applications/Games
 BuildArch:	noarch
 Source0:	%{name}-%{version}.tar.bz2
