@@ -5,10 +5,10 @@ Version:	0.1
 Release:	1
 License:	Freeware
 Group:		Applications/Games
-BuildArch:	noarch
 Source0:	%{name}-%{version}.tar.bz2
 URL:		http://lgames.sourceforge.net/
 Requires:	lgeneral
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -22,13 +22,11 @@ Ten pakiet zawiera dodatkowe scenariusze, nades³ane przez graczy.
 %prep
 %setup -q
 
-%build
-
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT%{_datadir}/lgeneral/scenarios/contrib
 
-mkdir -p $RPM_BUILD_ROOT/%{_datadir}/lgeneral/scenarios/contrib
-cp * $RPM_BUILD_ROOT/%{_datadir}/lgeneral/scenarios/contrib
+cp * $RPM_BUILD_ROOT%{_datadir}/lgeneral/scenarios/contrib
 
 %clean
 rm -rf $RPM_BUILD_ROOT
