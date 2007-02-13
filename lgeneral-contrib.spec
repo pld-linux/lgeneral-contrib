@@ -1,5 +1,5 @@
 Summary:	LGeneral game - contributed scenarios
-Summary(pl.UTF-8):   Gra Linux General - dodatkowe scenariusze
+Summary(pl.UTF-8):	Gra Linux General - dodatkowe scenariusze
 Name:		lgeneral-contrib
 Version:	0.1
 Release:	1
