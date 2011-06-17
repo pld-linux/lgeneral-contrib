@@ -6,6 +6,7 @@ Release:	1
 License:	Freeware
 Group:		Applications/Games
 Source0:	%{name}-%{version}.tar.bz2
+# Source0-md5:	e08a8baf0dd3bc301ae4f061fff5011b
 URL:		http://lgames.sourceforge.net/
 Requires:	lgeneral
 BuildArch:	noarch
